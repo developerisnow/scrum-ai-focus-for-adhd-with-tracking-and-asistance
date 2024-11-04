@@ -1,35 +1,27 @@
 # Voice AI Assistant Documentation
 
-## Overview
-This repository contains the technical and product documentation for the Voice AI Assistant project - an AI-powered personal productivity tool focused on intelligent task and time management.
+## Repository Structure
+```bash
+.
+├── README.md                # Project overview & structure
+├── index.md                 # GitHub Pages entry point
+├── .gitignore              # Git ignore patterns
+├── .nojekyll               # GitHub Pages config
+└── docs/                   # Documentation root
+    ├── 00.2.Documentation-Map.md    # Documentation navigation
+    ├── 01.PVD.md                    # Product Vision
+    ├── 02.PRD.md                    # Requirements
+    ├── 03.TDD.md                    # Technical Design
+    ├── 04.Lean-Canvas.md            # Business Model
+    ├── 05.Backlog-Development.md    # Development Backlog
+    ├── api/                         # API Documentation
+    ├── architecture/                # System Architecture
+    ├── guidelines/                  # Development Guidelines
+    └── system/                      # Internal Processes
+        ├── 00.process.md           # Process Definitions
+        ├── standards/              # Project Standards
+        ├── sprints/               # Sprint Documents
+        └── releases/              # Release Documents
+```
 
-## Document Structure
-The documentation follows a systematic naming convention and hierarchical structure:
-
-### Core Documents
-- **@00.x** - Meta & Process Documents
-  - `@00.1.timeline-upgrades.md` - Documentation evolution timeline
-  - `@00.2.Documentation-Map.v2.md` - Master documentation map
-  - `@00.process.v3.md` - Process definitions and SSOT principles
-
-- **@01-04** - Product Definition
-  - `@01.PVD.v2.md` - Product Vision Document
-  - `@02.PRD.v2.md` - Product Requirements Document
-  - `@03.TDD.v2.md` - Technical Design Document
-  - `@04.Lean-Canvas.v2.md` - Business Model Canvas
-
-- **@05** - Development
-  - `@05.Backlog-Development.md` - Development backlog and planning
-
-### Standards & References
-- `@$` prefix indicates industry standard reference documents
-  - `@$.Documentation-project-standards.md`
-  - `@$.Agile-Lean-Scrum-Kanban.md`
-
-## Version Control
-- Documents use semantic versioning (v1, v2, v3)
-- Each major version indicates significant structural changes
-- Minor updates are tracked within documents using change logs
-
-## Cross-References
-Documents maintain SSOT through explicit cross-references:
+[View Documentation](https://developerisnow.github.io/scrum-ai-focus-for-adhd-with-tracking-and-asistance)
